@@ -1,0 +1,17 @@
+table{
+	padding: 50px;
+	height: 10vh;
+	width: 200vh;
+	border: solid black 1px;
+	border-collapse: collapse;
+	flex-direction: column;
+	justify-content: center;
+}
+th{
+	border:solid black 1px;
+	background-color: black;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: white;
+}
